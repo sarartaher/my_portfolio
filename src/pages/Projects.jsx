@@ -21,7 +21,7 @@ const projectsData = [
         description: "My personal portfolio showcasing my projects and skills.",
         imageUrl: "/portfolio.png",
         techStack: ["React", "TailwindCSS"],
-        projectLink: "https://github.com/sarartaher/My-Portfoliio",
+        projectLink: "https://github.com/sarartaher/my_portfolio",
     },
 ];
 

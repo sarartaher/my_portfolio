@@ -1,16 +1,22 @@
-# React + Vite
+# My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, I’m **Sifur Taher**, a Computer Science and Engineering student at AIUB and an aspiring full-stack web developer.  
+I build modern, user-friendly, and scalable web applications, following a **learning by doing** approach to bridge theory and practice.
 
-Currently, two official plugins are available:
+## Skills & Technologies
+HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, TailwindCSS, Git & GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Projects
+- **To-Do List App:** A simple task management web app.
+- **Blog Website:** Responsive platform for creating and managing posts.
+- **Personal Portfolio:** Showcasing my skills, projects, and achievements.
 
-## React Compiler
+## Education
+🎓 BSc in Computer Science and Engineering (AIUB) — Currently Pursuing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Contact
+Reach out via the website contact form or email.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Made  by **Sifur Taher**
