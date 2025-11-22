@@ -1,10 +1,18 @@
-/* eslint-disable react/prop-types */
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  // TODO: Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_PUBLIC_KEY' with your actual EmailJS credentials.
-  // Consider using environment variables for better security.
+  // Using environment variables for EmailJS credentials
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+  if (!serviceId || !templateId || !publicKey) {
+    console.error(
+      "EmailJS credentials are not set. Please define VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, and VITE_EMAILJS_PUBLIC_KEY in your environment variables."
+    );
+  }
 
   const [formData, setFormData] = useState({
     name: "",
@@ -23,19 +31,27 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!serviceId || !templateId || !publicKey) {
+      setSubmitMessage(
+        "Email service is not configured properly. Please try again later."
+      );
+      return;
+    }
+
     setIsSubmitting(true);
     setSubmitMessage("");
 
     try {
       await emailjs.send(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        serviceId,
+        templateId,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        "YOUR_PUBLIC_KEY" // Replace with your EmailJS public key
+        publicKey
       );
       setSubmitMessage("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
@@ -141,5 +157,7 @@ const ContactForm = () => {
     </section>
   );
 };
+
+ContactForm.propTypes = {};
 
 export default ContactForm;

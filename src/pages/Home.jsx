@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import projectsData from "../data/projectsData.js";
-import myPhoto from "../assets/my_photo_2.jpg";
 
 const Home = () => {
   return (
@@ -30,7 +29,6 @@ const Home = () => {
                 sequence={[
                   "I'm Sifur Taher Sarar, a 🎓 Computer Science student and aspiring 💻 full-stack web developer, passionate about building modern, user-friendly, and scalable digital solutions.",
                   2000,
-                  "I'm Sifur Taher Sarar, a 🎓 Computer Science student and aspiring 💻 full-stack web developer, passionate about building modern, user-friendly, and scalable digital solutions.",
                 ]}
                 wrapper="p"
                 speed={70}
@@ -60,7 +58,7 @@ const Home = () => {
                 <i className="fab fa-github text-2xl"></i>
               </motion.a>
               <motion.a
-                href="www.linkedin.com/in/sifur-taher-sarar-ba98a8379"
+                href="https://www.linkedin.com/in/sifur-taher-sarar-ba98a8379"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gray-300"
@@ -78,7 +76,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <img
-              src={myPhoto}
+              src="/public/my_photo_2.jpg"
               alt="Profile"
               className="w-150 h-160 rounded-full object-cover shadow-lg"
             />
