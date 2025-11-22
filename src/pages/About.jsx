@@ -349,10 +349,10 @@ const About = () => {
               - Bachelor of Science in Computer Science and Engineering
               (Ongoing)
             </motion.li>
-<motion.li variants={itemVariants}>
-  <strong>Ostad Course</strong> - Full Stack Web Development with
-  MERN (Batch 8) Bootcamp Professional Certificatione
-</motion.li>
+            <motion.li variants={itemVariants}>
+              <strong>Ostad Course</strong> - Full Stack Web Development with
+              MERN (Batch 8) Bootcamp Professional Certificatione
+            </motion.li>
           </motion.ul>
         </div>
       </motion.div>

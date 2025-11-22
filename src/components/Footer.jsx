@@ -54,7 +54,7 @@ const Footer = ({ theme }) => {
           <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
           <div className="flex justify-center space-x-4">
             <a
-              href="www.linkedin.com/in/sifur-taher-sarar-ba98a8379"
+              href="https://www.linkedin.com/in/sifur-taher-sarar-ba98a8379"
               className="hover:text-blue-500 transition"
             >
               LinkedIn

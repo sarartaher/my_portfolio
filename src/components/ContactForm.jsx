@@ -1,7 +1,11 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+  // TODO: Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_PUBLIC_KEY' with your actual EmailJS credentials.
+  // Consider using environment variables for better security.
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",

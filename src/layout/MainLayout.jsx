@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { useTheme } from "../context/ThemeContext";
 
 const pageVariants = {
   initial: {
@@ -29,6 +30,8 @@ const pageTransition = {
 };
 
 const MainLayout = () => {
+  const { theme } = useTheme();
+
   return (
     <motion.div
       className="bg-white dark:bg-gray-800 text-black dark:text-white min-h-screen"
@@ -46,7 +49,7 @@ const MainLayout = () => {
       >
         <Outlet />
       </motion.main>
-      <Footer />
+      <Footer theme={theme} />
     </motion.div>
   );
 };

@@ -13,10 +13,14 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Update from "./pages/Update";
 import Resume from "./pages/Resume";
+import ErrorPage from "./components/ErrorPage";
+import ErrorBoundary from "./components/ErrorBoundary";
+
+const BASE_PATH = import.meta.env.PROD ? "/my_portfolio" : "/"; // must match vite base in vite.config.js
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<MainLayout />}>
+    <Route path="/" element={<MainLayout />} errorElement={<ErrorPage />}>
       <Route index element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -25,11 +29,16 @@ const router = createBrowserRouter(
       <Route path="/resume" element={<Resume />} />
       <Route path="/update" element={<Update />} />
     </Route>
-  )
+  ),
+  { basename: BASE_PATH }
 );
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <ErrorBoundary>
+      <RouterProvider router={router} />
+    </ErrorBoundary>
+  );
 };
 
 export default App;

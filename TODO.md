@@ -1,11 +1,5 @@
-# TODO: Enhance About Page
+# TODO: Fix Image Display Issue on GitHub Pages
 
-## Steps to Complete
-
-- [ ] Add icons to headings and list items for visual interest (e.g., using react-icons)
-- [ ] Enhance animations: add more stagger, rotate effects, or parallax to cards
-- [ ] Improve gradients or add shadows for depth
-- [ ] Add subtle background animations or particles for a dynamic feel
-- [ ] Ensure all text content remains unchanged
-- [ ] Run development server to preview changes
-- [ ] Test animations and responsiveness
+- [x] Update base path in vite.config.js to correct repository name
+- [x] Change imageUrl paths in src/data/projectsData.js to relative paths (remove leading "/")
+- [ ] Test locally and on GitHub Pages to verify image display

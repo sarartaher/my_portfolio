@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: "ToDo List App",
     description: "A full-stack MERN project to manage tasks efficiently.",
-    imageUrl: "/ToDOApp.png",
+    imageUrl: "ToDOApp.png",
     techStack: ["React", "TailwindCSS"],
     projectLink: "https://github.com/sarartaher/ToDo-list-app",
   },
@@ -16,9 +16,9 @@ const projectsData = [
   {
     title: "Portfolio Website",
     description: "My personal portfolio showcasing my projects and skills.",
-    imageUrl: "/portfolio.png",
+    imageUrl: "portfolio.png",
     techStack: ["React", "TailwindCSS"],
-    projectLink: "https://github.com/sarartaher/My-Portfoliio",
+    projectLink: "https://github.com/sarartaher/My-Portfolio",
   },
 ];
 
