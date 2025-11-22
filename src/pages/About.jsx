@@ -111,7 +111,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.5 }}
         />
         <motion.img
-          src="../public/my_img.jpg"
+          src="../my_img.jpg"
           alt="Introduction Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -191,7 +191,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="../src/assets/Skills.png"
+          src="./src/assets/Skills.png"
           alt="Skills Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -214,7 +214,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.9 }}
         />
         <motion.img
-          src="../src/assets/Learn By Doing.png"
+          src="./src/assets/Learn By Doing.png"
           alt="Philosophy Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -307,7 +307,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="../src/assets/Hobbies & Interests.png"
+          src="./src/assets/Hobbies & Interests.png"
           alt="Hobbies Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -324,7 +324,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src="../src/assets/Institutions_Attended.png"
+          src="./src/assets/Institutions_Attended.png"
           alt="Institutions Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -399,7 +399,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="../src/assets/Places.png"
+          src="./src/assets/Places.png"
           alt="Tours Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -416,7 +416,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src="../src/assets/Events.png"
+          src="./src/assets/Events.png"
           alt="Events Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
