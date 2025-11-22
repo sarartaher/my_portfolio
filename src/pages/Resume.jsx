@@ -16,10 +16,10 @@ const Resume = () => {
               </h3>
               <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-inner">
                 <embed
-                  src={import.meta.env.BASE_URL + "CV.pdf"}
+                  src="https://drive.google.com/file/d/15Y6gdN7T6FLCJmTnaGy7OceJSg5N229f/preview"
                   type="application/pdf"
                   width="100%"
-                  height="780px"
+                  height="700px"
                   className="rounded-lg border-2 border-gray-300 dark:border-gray-600"
                   title="Resume PDF preview"
                 />
@@ -58,7 +58,7 @@ const Resume = () => {
                   Download Resume
                 </h3>
                 <a
-                  href={import.meta.env.BASE_URL + "CV.pdf"}
+                  href="https://drive.google.com/uc?export=download&id=15Y6gdN7T6FLCJmTnaGy7OceJSg5N229f"
                   download="CV.pdf"
                   className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
                 >
