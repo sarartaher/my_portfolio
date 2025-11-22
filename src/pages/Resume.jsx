@@ -15,24 +15,25 @@ const Resume = () => {
                 Resume Preview
               </h3>
               <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-inner">
-                <object
-                  data="/CV.pdf"
+                <iframe
+                  src="/CV.pdf"
                   type="application/pdf"
                   width="100%"
                   height="780"
+                  title="Resume PDF preview"
                   className="rounded-lg border-2 border-gray-300 dark:border-gray-600"
-                >
-                  <p>
-                    Your browser does not support PDF preview. You can&nbsp;
-                    <a
-                      href="/CV.pdf"
-                      download="CV.pdf"
-                      className="text-blue-600 underline"
-                    >
-                      download the PDF here.
-                    </a>
-                  </p>
-                </object>
+                ></iframe>
+                <p className="mt-4 text-center text-gray-700 dark:text-gray-300">
+                  If you cannot see the PDF preview, you can&nbsp;
+                  <a
+                    href="/CV.pdf"
+                    download="CV.pdf"
+                    className="text-blue-600 underline"
+                  >
+                    download the PDF here.
+                  </a>
+                  .
+                </p>
               </div>
             </div>
 
