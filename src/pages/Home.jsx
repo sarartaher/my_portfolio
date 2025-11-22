@@ -77,7 +77,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <img
-              src="/src/assets/my_photo_2.jpg"
+              src="../src/assets/my_photo_2.jpg"
               alt="Profile"
               className="w-150 h-160 rounded-full object-cover shadow-lg"
             />

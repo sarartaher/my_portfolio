@@ -92,8 +92,8 @@ const About = () => {
           className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto"
           variants={itemVariants}
         >
-          Hello, I'm Sifur Taher Sarar, a passionate Computer Science and Engineering
-          student at AIUB, aspiring full-stack web developer.
+          Hello, I'm Sifur Taher Sarar, a passionate Computer Science and
+          Engineering student at AIUB, aspiring full-stack web developer.
         </motion.p>
       </motion.div>
 
@@ -111,7 +111,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.5 }}
         />
         <motion.img
-          src="/public/my_img.jpg"
+          src="../public/my_img.jpg"
           alt="Introduction Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -191,7 +191,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="/src/assets/Skills.png"
+          src="../src/assets/Skills.png"
           alt="Skills Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -214,7 +214,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.9 }}
         />
         <motion.img
-          src="/src/assets/Learn By Doing.png"
+          src="../src/assets/Learn By Doing.png"
           alt="Philosophy Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -307,7 +307,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="/src/assets/Hobbies & Interests.png"
+          src="../src/assets/Hobbies & Interests.png"
           alt="Hobbies Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -324,7 +324,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src="/src/assets/Institutions_Attended.png"
+          src="../src/assets/Institutions_Attended.png"
           alt="Institutions Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -385,18 +385,21 @@ const About = () => {
             variants={itemVariants}
           >
             <motion.li variants={itemVariants}>
-              Visited Lalmonirhat — Patgram, Teesta Barrage, Kakina Zamindar Bari
+              Visited Lalmonirhat — Patgram, Teesta Barrage, Kakina Zamindar
+              Bari
             </motion.li>
             <motion.li variants={itemVariants}>
-              Visited Narsingdi — Dream Holiday Park, Wari-Bateshwar, Monohardi countryside
+              Visited Narsingdi — Dream Holiday Park, Wari-Bateshwar, Monohardi
+              countryside
             </motion.li>
             <motion.li variants={itemVariants}>
-              Visited Dinajpur — Shopnopuri, Kantajew Temple, Ramsagar National Park
+              Visited Dinajpur — Shopnopuri, Kantajew Temple, Ramsagar National
+              Park
             </motion.li>
           </motion.ul>
         </div>
         <motion.img
-          src="/src/assets/Places.png"
+          src="../src/assets/Places.png"
           alt="Tours Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -413,7 +416,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src="/src/assets/Events.png"
+          src="../src/assets/Events.png"
           alt="Events Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
