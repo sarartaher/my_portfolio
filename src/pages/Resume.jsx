@@ -16,24 +16,13 @@ const Resume = () => {
               </h3>
               <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-inner">
                 <embed
-                  src="/CV.pdf"
+                  src={import.meta.env.BASE_URL + "CV.pdf"}
                   type="application/pdf"
                   width="100%"
                   height="780px"
                   className="rounded-lg border-2 border-gray-300 dark:border-gray-600"
                   title="Resume PDF preview"
                 />
-                <p className="mt-4 text-center text-gray-700 dark:text-gray-300">
-                  If you cannot see the PDF preview, you can&nbsp;
-                  <a
-                    href="/CV.pdf"
-                    download="CV.pdf"
-                    className="text-blue-600 underline"
-                  >
-                    download the PDF here.
-                  </a>
-                  .
-                </p>
               </div>
             </div>
 
@@ -69,7 +58,7 @@ const Resume = () => {
                   Download Resume
                 </h3>
                 <a
-                  href="/CV.pdf"
+                  href={import.meta.env.BASE_URL + "CV.pdf"}
                   download="CV.pdf"
                   className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
                 >
