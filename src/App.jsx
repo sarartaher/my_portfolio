@@ -16,7 +16,7 @@ import Resume from "./pages/Resume";
 import ErrorPage from "./components/ErrorPage";
 import ErrorBoundary from "./components/ErrorBoundary";
 
-const BASE_PATH = ""; // Changed from "/" to empty string to align with vite base
+const BASE_PATH = "/";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
