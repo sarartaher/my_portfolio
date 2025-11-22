@@ -17,8 +17,8 @@ import {
 
 import myImg from "../my_img.jpg";
 import skillsImg from "../assets/Skills.png";
-import learnByDoingImg from "../assets/Learn By Doing.png";
-import hobbiesImg from "../assets/Hobbies & Interests.png";
+import learnByDoingImg from "../assets/Learn_By_Doing.png";
+import hobbiesImg from "../assets/Hobbies_Interests.png";
 import institutionsImg from "../assets/Institutions_Attended.png";
 import placesImg from "../assets/Places.png";
 import eventsImg from "../assets/Events.png";
