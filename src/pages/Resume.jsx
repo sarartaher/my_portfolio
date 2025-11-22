@@ -15,14 +15,14 @@ const Resume = () => {
                 Resume Preview
               </h3>
               <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-inner">
-                <iframe
+                <embed
                   src="/CV.pdf"
                   type="application/pdf"
                   width="100%"
-                  height="780"
-                  title="Resume PDF preview"
+                  height="780px"
                   className="rounded-lg border-2 border-gray-300 dark:border-gray-600"
-                ></iframe>
+                  title="Resume PDF preview"
+                />
                 <p className="mt-4 text-center text-gray-700 dark:text-gray-300">
                   If you cannot see the PDF preview, you can&nbsp;
                   <a
