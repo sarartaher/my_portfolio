@@ -16,7 +16,7 @@ const Resume = () => {
               </h3>
               <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-inner">
                 <iframe
-                  src="CV.pdf"
+                  src="/CV.pdf"
                   title="Resume Preview"
                   className="w-full h-[780px] rounded-lg border-2 border-gray-300 dark:border-gray-600"
                 ></iframe>
@@ -56,6 +56,7 @@ const Resume = () => {
                 </h3>
                 <a
                   href="/CV.pdf"
+                  download="CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
