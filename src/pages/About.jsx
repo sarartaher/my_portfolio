@@ -15,14 +15,6 @@ import {
   FaTrophy,
 } from "react-icons/fa";
 
-import myImg from "../my_img.jpg";
-import skillsImg from "../assets/Skills.png";
-import learnByDoingImg from "../assets/Learn_By_Doing.png";
-import hobbiesImg from "../assets/Hobbies_Interests.png";
-import institutionsImg from "../assets/Institutions_Attended.png";
-import placesImg from "../assets/Places.png";
-import eventsImg from "../assets/Events.png";
-
 const About = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -119,7 +111,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.5 }}
         />
         <motion.img
-          src={myImg}
+          src="/my_img.jpg"
           alt="Introduction Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -199,7 +191,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src={skillsImg}
+          src="/Skills.png"
           alt="Skills Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -222,7 +214,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.9 }}
         />
         <motion.img
-          src={learnByDoingImg}
+          src="/Learn_By_Doing.png"
           alt="Philosophy Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -315,7 +307,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src={hobbiesImg}
+          src="/Hobbies_Interests.png"
           alt="Hobbies Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -332,7 +324,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src={institutionsImg}
+          src="/Institutions_Attended.png"
           alt="Institutions Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -357,10 +349,10 @@ const About = () => {
               - Bachelor of Science in Computer Science and Engineering
               (Ongoing)
             </motion.li>
-            <motion.li variants={itemVariants}>
-              <strong>Ostad Course</strong> - Full Stack Web Development with
-              MERN (Batch 8) Bootcamp Professional Certificatione
-            </motion.li>
+<motion.li variants={itemVariants}>
+  <strong>Ostad Course</strong> - Full Stack Web Development with
+  MERN (Batch 8) Bootcamp Professional Certificatione
+</motion.li>
           </motion.ul>
         </div>
       </motion.div>
@@ -407,7 +399,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src={placesImg}
+          src="/Places.png"
           alt="Tours Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -424,7 +416,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src={eventsImg}
+          src="/Events.png"
           alt="Events Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
