@@ -16,7 +16,7 @@ import Resume from "./pages/Resume";
 import ErrorPage from "./components/ErrorPage";
 import ErrorBoundary from "./components/ErrorBoundary";
 
-const BASE_PATH = import.meta.env.PROD ? "/my_portfolio" : "/"; // must match vite base in vite.config.js
+const BASE_PATH = "/";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

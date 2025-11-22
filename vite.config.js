@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(() => {
   return {
-    base: mode === "production" ? "/my_portfolio/" : "/",
+    base: "/", // Changed base path to root (/) for production deployment
     plugins: [react()],
   };
 });
