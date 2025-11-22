@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import projectsData from "../data/projectsData.js";
+import myPhoto from "../assets/my_photo_2.jpg";
 
 const Home = () => {
   return (
@@ -77,7 +78,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <img
-              src="./src/assets/my_photo_2.jpg"
+              src={myPhoto}
               alt="Profile"
               className="w-150 h-160 rounded-full object-cover shadow-lg"
             />
