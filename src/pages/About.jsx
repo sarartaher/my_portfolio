@@ -15,6 +15,14 @@ import {
   FaTrophy,
 } from "react-icons/fa";
 
+import myImg from "../my_img.jpg";
+import skillsImg from "../assets/Skills.png";
+import learnByDoingImg from "../assets/Learn By Doing.png";
+import hobbiesImg from "../assets/Hobbies & Interests.png";
+import institutionsImg from "../assets/Institutions_Attended.png";
+import placesImg from "../assets/Places.png";
+import eventsImg from "../assets/Events.png";
+
 const About = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -111,7 +119,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.5 }}
         />
         <motion.img
-          src="../my_img.jpg"
+          src={myImg}
           alt="Introduction Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -191,7 +199,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="./src/assets/Skills.png"
+          src={skillsImg}
           alt="Skills Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -214,7 +222,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.9 }}
         />
         <motion.img
-          src="./src/assets/Learn By Doing.png"
+          src={learnByDoingImg}
           alt="Philosophy Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -307,7 +315,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="./src/assets/Hobbies & Interests.png"
+          src={hobbiesImg}
           alt="Hobbies Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -324,7 +332,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src="./src/assets/Institutions_Attended.png"
+          src={institutionsImg}
           alt="Institutions Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -399,7 +407,7 @@ const About = () => {
           </motion.ul>
         </div>
         <motion.img
-          src="./src/assets/Places.png"
+          src={placesImg}
           alt="Tours Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
@@ -416,7 +424,7 @@ const About = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.img
-          src="./src/assets/Events.png"
+          src={eventsImg}
           alt="Events Placeholder"
           className="w-full h-auto object-cover rounded-2xl shadow-md"
           variants={imageVariants}
